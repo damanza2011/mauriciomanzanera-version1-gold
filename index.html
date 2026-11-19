@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mauricio Manzanera | Consultoría Estratégica & Negociación Global (Versión Gold)</title>
+  
+  <meta name="description" content="Sitio oficial de Mauricio Manzanera. Solutions Consultant y Presidente de Red Global de Negocios S.A.S. Experto en negociación compleja (PNL), sostenibilidad e internacionalización.">
+  <meta name="author" content="Mauricio Manzanera">
+  <link rel="canonical" href="https://www.mauriciomanzanera.com">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Custom CSS Gold Edition -->
+  <link rel="stylesheet" href="./assets/css/custom.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mauricio Manzanera",
+    "jobTitle": "Presidente & Solutions Consultant",
+    "telephone": "+573182664266",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Red Global de Negocios S.A.S."
+    },
+    "sameAs": ["https://www.linkedin.com/in/mauriciomanzanera/"],
+    "url": "https://www.mauriciomanzanera.com"
+  }
+  </script>
+</head>
+
+<body class="bg-[#07090e] text-slate-100 antialiased min-h-screen relative overflow-x-hidden selection:bg-amber-400 selection:text-slate-950">
+
+  <!-- Ambient Golden Lights -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div class="absolute -top-32 -left-32 w-[550px] h-[550px] rounded-full mesh-glow-gold filter blur-3xl opacity-40"></div>
+    <div class="absolute top-1/3 -right-32 w-[600px] h-[600px] rounded-full mesh-glow-cyan filter blur-3xl opacity-30"></div>
+  </div>
+
+  <!-- Header -->
+  <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 px-6 md:px-12 bg-transparent">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      
+      <a href="#hero" class="flex items-center space-x-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-400 via-amber-500 to-amber-700 flex items-center justify-center font-heading font-black text-slate-950 text-base shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
+          MM
+        </div>
+        <div class="flex flex-col">
+          <span class="font-heading font-bold tracking-wider text-base md:text-lg text-white group-hover:text-amber-300 transition-colors">
+            MAURICIO MANZANERA
+          </span>
+          <span class="text-[10px] uppercase tracking-widest text-slate-400 font-mono-tag">
+            Solutions Consultant & Executive Advisor
+          </span>
+        </div>
+      </a>
+
+      <!-- Navigation -->
+      <nav class="hidden lg:flex items-center space-x-7 text-xs font-semibold text-slate-300 uppercase tracking-wider">
+        <a href="#perfil" class="nav-link hover:text-white transition-colors">Visión Ejecutiva</a>
+        <a href="#pilares" class="nav-link hover:text-white transition-colors">Pilares de Solución</a>
+        <a href="#metodo" class="nav-link hover:text-white transition-colors">El Método</a>
+        <a href="#simulador" class="nav-link hover:text-white transition-colors">Simulador</a>
+        <a href="#trayectoria" class="nav-link hover:text-white transition-colors">Credenciales</a>
+      </nav>
+
+      <!-- Language Badges & Action -->
+      <div class="hidden sm:flex items-center space-x-3">
+        <!-- Social Strip -->
+        <div class="flex items-center space-x-1 px-2.5 py-1 rounded-full bg-slate-900/90 border border-white/10 text-slate-400">
+          <a href="https://www.linkedin.com/in/mauriciomanzanera/" target="_blank" rel="noopener noreferrer" class="p-1 hover:text-amber-400" title="LinkedIn Oficial">
+            <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
+          </a>
+          <a href="https://wa.me/573182664266" target="_blank" rel="noopener noreferrer" class="p-1 hover:text-emerald-400" title="WhatsApp (+57 318 266 4266)">
+            <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+          </a>
+          <a href="https://www.youtube.com/results?search_query=Mauricio+Manzanera" target="_blank" rel="noopener noreferrer" class="p-1 hover:text-red-400" title="YouTube">
+            <i data-lucide="youtube" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+        <div class="flex items-center space-x-1.5 px-3 py-1 rounded-full bg-slate-900/90 border border-amber-400/30 text-xs text-slate-300 font-mono-tag">
+          <i data-lucide="globe" class="w-3.5 h-3.5 text-amber-400"></i>
+          <span class="lang-badge cursor-pointer hover:text-amber-300 font-bold text-amber-400" data-lang-name="Español (Nativo)">ES</span>
+          <span class="text-slate-600">·</span>
+          <span class="lang-badge cursor-pointer hover:text-amber-300" data-lang-name="English (Bilingual)">EN</span>
+          <span class="text-slate-600">·</span>
+          <span class="lang-badge cursor-pointer hover:text-amber-300" data-lang-name="Italiano">IT</span>
+          <span class="text-slate-600">·</span>
+          <span class="lang-badge cursor-pointer hover:text-amber-300" data-lang-name="Français">FR</span>
+          <span class="text-slate-600">·</span>
+          <span class="lang-badge cursor-pointer hover:text-amber-300" data-lang-name="العربية (Árabe)">AR</span>
+        </div>
+
+        <button class="open-booking-modal btn-shimmer inline-flex items-center space-x-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs tracking-wide shadow-lg shadow-amber-500/20 transition-all">
+          <span>Agendar Sesión</span>
+          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+        </button>
+      </div>
+
+      <button id="mobile-menu-btn" class="lg:hidden p-2 text-slate-300 hover:text-white">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobile-menu" class="hidden lg:hidden mt-4 p-6 glass-panel rounded-2xl mx-2 border border-white/10">
+      <div class="flex flex-col space-y-4 text-sm font-semibold">
+        <a href="#perfil" class="mobile-nav-link text-slate-200 hover:text-amber-400">Visión Ejecutiva</a>
+        <a href="#pilares" class="mobile-nav-link text-slate-200 hover:text-amber-400">Pilares de Solución</a>
+        <a href="#metodo" class="mobile-nav-link text-slate-200 hover:text-amber-400">El Método</a>
+        <a href="#simulador" class="mobile-nav-link text-slate-200 hover:text-amber-400">Simulador de Desafíos</a>
+        <a href="#trayectoria" class="mobile-nav-link text-slate-200 hover:text-amber-400">Credenciales</a>
+        <div class="pt-3 border-t border-white/10 flex flex-col space-y-3">
+          <button class="open-booking-modal w-full py-3 rounded-full bg-amber-500 text-slate-950 font-bold text-center text-xs uppercase tracking-wider">
+            Agendar Consulta Ejecutiva
+          </button>
+          <a href="https://wa.me/573182664266" target="_blank" rel="noopener noreferrer" class="text-xs text-center text-emerald-400 py-1">
+            WhatsApp Directo (+57 318 266 4266)
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10">
+
+    <!-- HERO SECTION: Perfectly Scaled & Highly Legible -->
+    <section id="hero" class="pt-32 md:pt-40 pb-20 px-6 md:px-12 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <div class="lg:col-span-8 flex flex-col space-y-6">
+          
+          <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-amber-400/40 text-amber-300 text-xs font-mono-tag w-fit">
+            <span class="w-2 h-2 rounded-full bg-amber-400 relative">
+              <span class="absolute inset-0 rounded-full bg-amber-400 beacon-pulse"></span>
+            </span>
+            <span>Presidente de Red Global de Negocios S.A.S.</span>
+          </div>
+
+          <!-- Clean Scaled Headline -->
+          <h1 class="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-extrabold tracking-tight leading-[1.12] text-white">
+            Estrategia Global, <br>
+            <span class="text-gold-highlight">Negociación de Alto Nivel</span> <br>
+            y Transformación Sostenible.
+          </h1>
+
+          <p class="text-slate-300 text-base md:text-lg font-normal leading-relaxed max-w-2xl">
+            Cerca de dos décadas estructurando soluciones organizacionales a la medida, mediación de conflictos corporativos de alta complejidad con <strong class="text-white">herramientas avanzadas de PNL</strong> y expansión de negocios entre América Latina, Europa y Medio Oriente.
+          </p>
+
+          <div class="pt-2 flex flex-wrap items-center gap-4">
+            <button class="open-booking-modal btn-shimmer px-7 py-3.5 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs tracking-wider uppercase shadow-xl shadow-amber-500/25 flex items-center space-x-2.5 transition-transform hover:-translate-y-0.5">
+              <span>Agendar Consulta Estratégica</span>
+              <i data-lucide="calendar" class="w-4 h-4"></i>
+            </button>
+
+            <a href="#simulador" class="px-6 py-3.5 rounded-full bg-slate-900 hover:bg-slate-800 text-slate-200 border border-white/15 hover:border-amber-400/40 font-semibold text-xs tracking-wider uppercase transition-all flex items-center space-x-2">
+              <span>Simulador de Solución</span>
+              <i data-lucide="sliders-horizontal" class="w-3.5 h-3.5 text-amber-400"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/mauriciomanzanera/" target="_blank" rel="noopener noreferrer" class="px-5 py-3.5 rounded-full bg-[#0077b5]/20 hover:bg-[#0077b5]/30 border border-[#0077b5]/40 text-sky-300 font-mono-tag text-xs font-semibold flex items-center space-x-2 transition-all">
+              <i data-lucide="linkedin" class="w-3.5 h-3.5 text-[#0077b5]"></i>
+              <span>LinkedIn Verificado</span>
+              <i data-lucide="arrow-up-right" class="w-3 h-3 opacity-70"></i>
+            </a>
+          </div>
+
+          <div class="pt-4 flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-slate-300 border-t border-white/10 font-medium">
+            <div class="flex items-center space-x-2">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400"></i>
+              <span>Asesor de Juntas Directivas</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400"></i>
+              <span>Mediación Avanzada con PNL</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400"></i>
+              <span>Enfoque ESG & Triple Impacto</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Executive Gold Profile Card -->
+        <div class="lg:col-span-4 flex justify-center">
+          <div class="w-full max-w-sm glass-panel rounded-3xl p-6 relative overflow-hidden border border-amber-400/30 shadow-2xl">
+            
+            <div class="flex items-center justify-between pb-3 border-b border-white/10">
+              <div class="flex items-center space-x-2">
+                <div class="w-2.5 h-2.5 rounded-full bg-emerald-400"></div>
+                <span class="text-[11px] uppercase tracking-wider text-slate-300 font-mono-tag font-semibold">Disponibilidad Ejecutiva</span>
+              </div>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-300 font-mono-tag font-bold">Confidencial</span>
+            </div>
+
+            <div class="py-5 flex flex-col items-center text-center">
+              <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-amber-600 to-amber-400 p-0.5 mb-3 shadow-lg">
+                <div class="w-full h-full rounded-2xl bg-[#090d16] flex flex-col items-center justify-center">
+                  <span class="font-heading text-2xl font-black text-amber-400">MM</span>
+                </div>
+              </div>
+
+              <h3 class="font-heading text-lg font-bold text-white">Mauricio Manzanera</h3>
+              <p class="text-amber-400 text-xs font-medium mt-0.5">Solutions Consultant | Global Business Network</p>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                Especialista en destrabar negociaciones críticas, diseñar modelos de venta estratégica y alinear gobiernos corporativos hacia la sostenibilidad.
+              </p>
+            </div>
+
+            <div class="space-y-2 pt-2 border-t border-white/10 text-xs">
+              <div class="flex items-center justify-between p-2 rounded-lg bg-white/5">
+                <span class="text-slate-400">Sede Estratégica:</span>
+                <span class="text-slate-200 font-medium">Bogotá · Londres · Medellín</span>
+              </div>
+              <div class="flex items-center justify-between p-2 rounded-lg bg-white/5">
+                <span class="text-slate-400">Formación:</span>
+                <span class="text-slate-200 font-medium">Javeriana · UniAndes · London</span>
+              </div>
+              <div class="flex items-center justify-between p-2 rounded-lg bg-white/5">
+                <span class="text-slate-400">Contacto Directo:</span>
+                <span class="text-amber-300 font-mono-tag font-bold">+57 318 266 4266</span>
+              </div>
+            </div>
+
+            <div class="mt-5">
+              <button class="open-booking-modal w-full py-2.5 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs uppercase tracking-wider transition-all">
+                Solicitar Conversación Privada
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- METRICS TICKER -->
+    <section id="metricas" class="py-12 border-y border-amber-400/20 bg-[#0d121f]/60 backdrop-blur-sm">
+      <div class="max-w-7xl mx-auto px-6 md:px-12">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          
+          <div>
+            <div class="font-heading text-3xl sm:text-4xl font-extrabold text-amber-400">
+              +<span class="counter" data-target="20">0</span>
+            </div>
+            <span class="text-xs uppercase tracking-wider text-slate-400 mt-1 font-mono-tag block">Años de Trayectoria</span>
+          </div>
+
+          <div>
+            <div class="font-heading text-3xl sm:text-4xl font-extrabold text-white">
+              +<span class="counter" data-target="150">0</span>
+            </div>
+            <span class="text-xs uppercase tracking-wider text-slate-400 mt-1 font-mono-tag block">Acuerdos & Proyectos</span>
+          </div>
+
+          <div>
+            <div class="font-heading text-3xl sm:text-4xl font-extrabold text-sky-400">
+              <span class="counter" data-target="5">0</span>
+            </div>
+            <span class="text-xs uppercase tracking-wider text-slate-400 mt-1 font-mono-tag block">Idiomas Internacionales</span>
+          </div>
+
+          <div>
+            <div class="font-heading text-3xl sm:text-4xl font-extrabold text-amber-400">
+              100%
+            </div>
+            <span class="text-xs uppercase tracking-wider text-slate-400 mt-1 font-mono-tag block">A Medida & Confidencial</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIÓN EJECUTIVA -->
+    <section id="perfil" class="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <div class="lg:col-span-5 space-y-5">
+          <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-400/10 border border-amber-400/30 text-amber-300 text-xs font-mono-tag uppercase">
+            <i data-lucide="user-check" class="w-3.5 h-3.5"></i>
+            <span>La Visión Ejecutiva</span>
+          </div>
+
+          <h2 class="font-heading text-3xl md:text-4xl font-extrabold text-white leading-tight">
+            Diseñando soluciones donde convergen los <span class="text-amber-400">negocios</span>, el <span class="text-sky-400">comportamiento humano</span> y la <span class="text-emerald-400">sostenibilidad</span>.
+          </h2>
+
+          <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+            Mauricio Manzanera ha consolidado una carrera directiva de amplio alcance, fusionando rigor en finanzas corporativas con técnicas avanzadas de psicología de la negociación y gestión del cambio.
+          </p>
+
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Como Presidente de <strong>Red Global de Negocios S.A.S.</strong> y ex-Vicepresidente de Ventas y Marketing para <strong>I.B.R. Ltda.</strong> en Londres y Medellín, interviene en la mesa directiva para transformar cuellos de botella organizacionales en ventajas competitivas duraderas.
+          </p>
+
+          <div class="p-4 rounded-2xl glass-panel space-y-2 border border-amber-400/20">
+            <span class="text-xs uppercase tracking-wider text-amber-400 font-mono-tag font-semibold flex items-center space-x-2">
+              <i data-lucide="languages" class="w-4 h-4"></i>
+              <span>Alcance Lingüístico & Multilateral (5 Lenguas)</span>
+            </span>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
+              <div class="p-2 rounded bg-black/40 border border-white/5 flex items-center justify-between">
+                <span>Español</span>
+                <span class="text-[10px] text-amber-400 font-mono-tag">Nativo</span>
+              </div>
+              <div class="p-2 rounded bg-black/40 border border-white/5 flex items-center justify-between">
+                <span>English</span>
+                <span class="text-[10px] text-amber-400 font-mono-tag">Fluido</span>
+              </div>
+              <div class="p-2 rounded bg-black/40 border border-white/5 flex items-center justify-between">
+                <span>Italiano</span>
+                <span class="text-[10px] text-sky-400 font-mono-tag">Avanzado</span>
+              </div>
+              <div class="p-2 rounded bg-black/40 border border-white/5 flex items-center justify-between">
+                <span>Français</span>
+                <span class="text-[10px] text-sky-400 font-mono-tag">Profesional</span>
+              </div>
+              <div class="p-2 rounded bg-black/40 border border-white/5 flex items-center justify-between col-span-2 sm:col-span-1">
+                <span>العربية</span>
+                <span class="text-[10px] text-amber-400 font-mono-tag">Comercial</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          
+          <div class="glass-panel p-5 rounded-2xl space-y-2.5 border-t-2 border-amber-400">
+            <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center">
+              <i data-lucide="brain-circuit" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white">PNL en Negociación</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Herramientas de Programación Neurolingüística aplicadas a neutralizar sesgos y bloqueos emocionales en fusiones y acuerdos de socios.
+            </p>
+          </div>
+
+          <div class="glass-panel p-5 rounded-2xl space-y-2.5 border-t-2 border-emerald-400">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center">
+              <i data-lucide="leaf" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white">Sostenibilidad & ESG</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Estrategias de triple impacto para convertir la responsabilidad ambiental en vector de rentabilidad y acceso a capital.
+            </p>
+          </div>
+
+          <div class="glass-panel p-5 rounded-2xl space-y-2.5 border-t-2 border-sky-400">
+            <div class="w-10 h-10 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center">
+              <i data-lucide="network" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white">Redes Globales de Negocios</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Puente estratégico para empresas latinoamericanas hacia los centros de decisión de Londres, Europa y Oriente Medio.
+            </p>
+          </div>
+
+          <div class="glass-panel p-5 rounded-2xl space-y-2.5 border-t-2 border-purple-400">
+            <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center">
+              <i data-lucide="target" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-heading text-base font-bold text-white">Diagnóstico a la Medida</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Evaluación empírica de la estructura comercial y operacional con métricas de retorno de inversión auditables.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PILARES DE SOLUCIÓN -->
+    <section id="pilares" class="py-20 bg-[#090d16] border-y border-white/10 px-6 md:px-12">
+      <div class="max-w-7xl mx-auto">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 space-y-3 md:space-y-0">
+          <div>
+            <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-400/10 border border-amber-400/30 text-amber-300 text-xs font-mono-tag uppercase">
+              <i data-lucide="layers" class="w-3.5 h-3.5"></i>
+              <span>Áreas de Intervención</span>
+            </div>
+            <h2 class="font-heading text-3xl md:text-4xl font-extrabold text-white mt-2">
+              Pilares de Solución Estratégica
+            </h2>
+          </div>
+          <p class="text-slate-400 text-sm max-w-md">
+            Servicios estructurados para juntas directivas, presidentes corporativos y fondos de inversión.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          
+          <div class="glass-panel rounded-2xl p-7 flex flex-col justify-between border-l-4 border-l-amber-400">
+            <div>
+              <div class="flex items-center justify-between text-xs font-mono-tag text-slate-400 mb-3">
+                <span class="text-amber-400 font-bold">PILAR 01</span>
+                <span>Gobernanza & Alianzas</span>
+              </div>
+              <h3 class="font-heading text-xl font-bold text-white mb-2">
+                Negociación Estratégica y Resolución de Conflictos
+              </h3>
+              <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                Intervención neutral y de alto nivel en momentos de fricción societaria, renegociación de contratos multilaterales y pactos de accionistas.
+              </p>
+            </div>
+            <button class="open-booking-modal inline-flex items-center space-x-2 text-xs font-bold text-amber-400 hover:text-amber-300 uppercase tracking-wider" data-preset-subject="Consulta sobre Negociación Estratégica">
+              <span>Solicitar Mediación Estratégica</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+          <div class="glass-panel rounded-2xl p-7 flex flex-col justify-between border-l-4 border-l-sky-400">
+            <div>
+              <div class="flex items-center justify-between text-xs font-mono-tag text-slate-400 mb-3">
+                <span class="text-sky-400 font-bold">PILAR 02</span>
+                <span>Internacionalización</span>
+              </div>
+              <h3 class="font-heading text-xl font-bold text-white mb-2">
+                Red Global de Negocios y Expansión Bilateral
+              </h3>
+              <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                Articulación de vínculos comerciales y alianzas estratégicas para empresas que buscan ingresar a mercados internacionales.
+              </p>
+            </div>
+            <button class="open-booking-modal inline-flex items-center space-x-2 text-xs font-bold text-sky-400 hover:text-sky-300 uppercase tracking-wider" data-preset-subject="Consulta sobre Expansión Global">
+              <span>Consultar Alianzas Internacionales</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+          <div class="glass-panel rounded-2xl p-7 flex flex-col justify-between border-l-4 border-l-emerald-400">
+            <div>
+              <div class="flex items-center justify-between text-xs font-mono-tag text-slate-400 mb-3">
+                <span class="text-emerald-400 font-bold">PILAR 03</span>
+                <span>Sostenibilidad & Futuro</span>
+              </div>
+              <h3 class="font-heading text-xl font-bold text-white mb-2">
+                Estrategia ESG, Innovación y Sostenibilidad
+              </h3>
+              <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                Evolución de modelos de negocio hacia estándares contemporáneos de responsabilidad ambiental, gobernanza ética y acceso a fondos de inversión sostenibles.
+              </p>
+            </div>
+            <button class="open-booking-modal inline-flex items-center space-x-2 text-xs font-bold text-emerald-400 hover:text-emerald-300 uppercase tracking-wider" data-preset-subject="Consulta sobre Estrategia ESG">
+              <span>Diseñar Estrategia Sostenible</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+          <div class="glass-panel rounded-2xl p-7 flex flex-col justify-between border-l-4 border-l-purple-400">
+            <div>
+              <div class="flex items-center justify-between text-xs font-mono-tag text-slate-400 mb-3">
+                <span class="text-purple-400 font-bold">PILAR 04</span>
+                <span>Diagnóstico & Escala</span>
+              </div>
+              <h3 class="font-heading text-xl font-bold text-white mb-2">
+                Diagnóstico Organizacional y Eficiencia Comercial
+              </h3>
+              <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                Auditoría de la fuerza comercial y estructura operativa. Identificación de fugas de rentabilidad y rediseño de modelos de venta de alto valor.
+              </p>
+            </div>
+            <button class="open-booking-modal inline-flex items-center space-x-2 text-xs font-bold text-purple-400 hover:text-purple-300 uppercase tracking-wider" data-preset-subject="Consulta sobre Diagnóstico Comercial">
+              <span>Solicitar Diagnóstico a Medida</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EL MÉTODO -->
+    <section id="metodo" class="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="font-heading text-3xl font-extrabold text-white">El Método Manzanera</h2>
+        <p class="text-slate-400 text-xs mt-2">Un marco analítico de cuatro fases para decisiones estratégicas viables.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div class="glass-panel p-5 rounded-2xl">
+          <div class="text-3xl font-heading font-black text-amber-400/40 mb-1">01</div>
+          <h3 class="font-heading text-base font-bold text-white mb-1">Diagnóstico Inmersivo</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">Inmersión en los números y las dinámicas internas de poder para identificar la verdadera raíz.</p>
+        </div>
+        <div class="glass-panel p-5 rounded-2xl">
+          <div class="text-3xl font-heading font-black text-sky-400/40 mb-1">02</div>
+          <h3 class="font-heading text-base font-bold text-white mb-1">Arquitectura a Medida</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">Diseño de una hoja de ruta con escenarios alternativos y evaluación de riesgos financieros.</p>
+        </div>
+        <div class="glass-panel p-5 rounded-2xl">
+          <div class="text-3xl font-heading font-black text-emerald-400/40 mb-1">03</div>
+          <h3 class="font-heading text-base font-bold text-white mb-1">Mediación & PNL</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">Facilitación de mesas de diálogo con herramientas de PNL para consenso entre directores y socios.</p>
+        </div>
+        <div class="glass-panel p-5 rounded-2xl">
+          <div class="text-3xl font-heading font-black text-purple-400/40 mb-1">04</div>
+          <h3 class="font-heading text-base font-bold text-white mb-1">Ejecución & Seguimiento</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">Puesta en marcha con KPIs de gobernanza, impacto y cumplimiento de rentabilidad pactada.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIMULADOR -->
+    <section id="simulador" class="py-20 bg-[#0a0f1d] border-y border-white/10 px-6 md:px-12">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <h2 class="font-heading text-3xl font-extrabold text-white">Simulador de Solución Directiva</h2>
+          <p class="text-slate-400 text-xs mt-1">Selecciona la prioridad actual de tu organización.</p>
+        </div>
+        <div class="glass-panel rounded-3xl p-6 md:p-8 border border-amber-400/30">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+            <button class="challenge-btn p-3 rounded-xl border text-xs text-center transition-all bg-amber-500/20 border-amber-400 text-amber-300 flex flex-col items-center space-y-1" data-challenge="expansion">
+              <i data-lucide="globe" class="w-4 h-4"></i>
+              <span>Expansión Global</span>
+            </button>
+            <button class="challenge-btn p-3 rounded-xl border text-xs text-center transition-all bg-white/5 border-white/10 text-slate-300 hover:bg-white/10 flex flex-col items-center space-y-1" data-challenge="conflict">
+              <i data-lucide="users-2" class="w-4 h-4"></i>
+              <span>Conflicto Societario</span>
+            </button>
+            <button class="challenge-btn p-3 rounded-xl border text-xs text-center transition-all bg-white/5 border-white/10 text-slate-300 hover:bg-white/10 flex flex-col items-center space-y-1" data-challenge="esg">
+              <i data-lucide="leaf" class="w-4 h-4"></i>
+              <span>Estrategia ESG</span>
+            </button>
+            <button class="challenge-btn p-3 rounded-xl border text-xs text-center transition-all bg-white/5 border-white/10 text-slate-300 hover:bg-white/10 flex flex-col items-center space-y-1" data-challenge="diagnosis">
+              <i data-lucide="bar-chart-3" class="w-4 h-4"></i>
+              <span>Diagnóstico Comercial</span>
+            </button>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-[#07090e]/80 border border-white/10 grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+            <div class="md:col-span-8 space-y-3">
+              <div class="flex items-center space-x-2">
+                <span id="diag-tag" class="px-2 py-0.5 rounded text-[10px] font-mono-tag bg-amber-400/20 text-amber-300 font-bold uppercase">Global Business Network</span>
+                <span class="text-xs text-slate-400">Tiempo: <strong id="diag-timeframe" class="text-white">3 a 6 meses</strong></span>
+              </div>
+              <h3 id="diag-title" class="font-heading text-xl font-bold text-white">Expansión y Redes de Negocios Globales</h3>
+              <p id="diag-focus" class="text-xs text-slate-300">Arquitectura de alianzas bilaterales y estructuración comercial en mercados multilaterales.</p>
+              <div class="p-2.5 rounded-lg bg-white/5 text-xs text-emerald-400 flex items-center space-x-2">
+                <i data-lucide="trending-up" class="w-4 h-4"></i>
+                <span id="diag-roi">Aceleración de entrada comercial de hasta 60% frente a procesos tradicionales.</span>
+              </div>
+            </div>
+            <div class="md:col-span-4 flex flex-col items-center justify-center p-4 rounded-xl bg-white/5 border border-white/10 text-center space-y-2">
+              <p class="text-xs text-slate-300">¿Deseas profundizar con Mauricio Manzanera?</p>
+              <button id="diag-modal-trigger" class="open-booking-modal w-full py-2.5 rounded-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs uppercase tracking-wider">
+                Agendar Sesión Preliminar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREDENCIALES & TRAYECTORIA -->
+    <section id="trayectoria" class="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+        <div class="lg:col-span-5 space-y-4">
+          <h2 class="font-heading text-3xl font-extrabold text-white">Formación y Rigor Académico</h2>
+          <div class="space-y-3">
+            <div class="glass-panel p-4 rounded-xl">
+              <span class="text-[10px] text-amber-400 font-mono-tag uppercase">Pregrado</span>
+              <h3 class="font-heading text-sm font-bold text-white">Administración de Empresas</h3>
+              <p class="text-xs text-slate-400">Pontificia Universidad Javeriana · 2002</p>
+            </div>
+            <div class="glass-panel p-4 rounded-xl">
+              <span class="text-[10px] text-sky-400 font-mono-tag uppercase">Operaciones</span>
+              <h3 class="font-heading text-sm font-bold text-white">Estudios en Ingeniería Industrial</h3>
+              <p class="text-xs text-slate-400">Universidad de los Andes</p>
+            </div>
+            <div class="glass-panel p-4 rounded-xl">
+              <span class="text-[10px] text-emerald-400 font-mono-tag uppercase">Finanzas</span>
+              <h3 class="font-heading text-sm font-bold text-white">Contabilidad y Finanzas</h3>
+              <p class="text-xs text-slate-400">City College of London · Reino Unido</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:col-span-7 space-y-4">
+          <h2 class="font-heading text-3xl font-extrabold text-white">Trayectoria Ejecutiva</h2>
+          <div class="space-y-4 border-l border-amber-400/30 pl-5 ml-2">
+            <div>
+              <span class="text-xs font-mono-tag text-amber-400">2010 - Actualidad</span>
+              <h3 class="font-heading text-lg font-bold text-white">Presidente & Solutions Consultant</h3>
+              <p class="text-xs text-slate-300">Red Global de Negocios S.A.S. (Global Business Network)</p>
+            </div>
+            <div>
+              <span class="text-xs font-mono-tag text-sky-400">Dirección Internacional</span>
+              <h3 class="font-heading text-lg font-bold text-white">Vicepresidente de Ventas y Marketing</h3>
+              <p class="text-xs text-slate-300">I.B.R. Ltda. · Londres (UK) & Medellín (Colombia)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO DIRECTO -->
+    <section id="contacto" class="py-20 bg-[#0d121f] border-t border-white/10 px-6 md:px-12 text-center">
+      <div class="max-w-4xl mx-auto space-y-6">
+        <h2 class="font-heading text-3xl md:text-4xl font-extrabold text-white">Inicie una Conversación Estratégica</h2>
+        <p class="text-slate-300 text-sm max-w-xl mx-auto">Diálogo confidencial directo para juntas directivas y presidentes corporativos.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left pt-4">
+          <div class="glass-panel p-4 rounded-xl border-t-2 border-emerald-400">
+            <span class="text-xs font-mono-tag text-slate-400">WhatsApp Directo</span>
+            <p class="text-xs font-bold text-white my-1">+57 318 266 4266</p>
+            <a href="https://wa.me/573182664266" target="_blank" rel="noopener noreferrer" class="block w-full py-2 rounded-lg bg-emerald-500 text-slate-950 font-bold text-xs uppercase text-center mt-2">Chat WhatsApp</a>
+          </div>
+          <div class="glass-panel p-4 rounded-xl border-t-2 border-amber-400">
+            <span class="text-xs font-mono-tag text-slate-400">Sesión Directa</span>
+            <p class="text-xs font-bold text-white my-1">45 min Confidencial</p>
+            <button class="open-booking-modal w-full py-2 rounded-lg bg-amber-500 text-slate-950 font-bold text-xs uppercase mt-2">Agendar en Línea</button>
+          </div>
+          <div class="glass-panel p-4 rounded-xl border-t-2 border-sky-400">
+            <span class="text-xs font-mono-tag text-slate-400">Red Profesional</span>
+            <p class="text-xs font-bold text-white my-1">LinkedIn Oficial</p>
+            <a href="https://www.linkedin.com/in/mauriciomanzanera/" target="_blank" rel="noopener noreferrer" class="block w-full py-2 rounded-lg bg-sky-500 text-slate-950 font-bold text-xs uppercase text-center mt-2">Ver Perfil</a>
+          </div>
+          <div class="glass-panel p-4 rounded-xl border-t-2 border-slate-400">
+            <span class="text-xs font-mono-tag text-slate-400">Correo</span>
+            <p class="text-[11px] font-bold text-white truncate my-1">contacto@mauriciomanzanera.com</p>
+            <button class="copy-trigger w-full py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white font-medium text-xs uppercase mt-2" data-copy="contacto@mauriciomanzanera.com">Copiar Correo</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL DE AGENDAMIENTO -->
+  <div id="booking-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/85 backdrop-blur-md p-4">
+    <div class="glass-panel w-full max-w-lg rounded-3xl p-6 relative border border-amber-400/30">
+      <button id="close-modal-btn" class="absolute top-4 right-4 text-slate-400 hover:text-white"><i data-lucide="x" class="w-5 h-5"></i></button>
+      <h3 class="font-heading text-xl font-bold text-white mb-1">Solicitar Sesión de Trabajo</h3>
+      <p class="text-xs text-slate-400 mb-4">Complete los campos para coordinar fecha y hora confidencial.</p>
+      <form id="consultation-form" class="space-y-3">
+        <input type="text" id="form-name" required placeholder="Nombre y Apellido *" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-white/10 text-xs text-white">
+        <input type="text" id="form-org" required placeholder="Empresa u Organización *" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-white/10 text-xs text-white">
+        <input type="email" id="form-email" required placeholder="Correo Corporativo *" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-white/10 text-xs text-white">
+        <input type="text" id="form-subject" value="Consulta General" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-white/10 text-xs text-white">
+        <textarea id="form-message" rows="2" placeholder="Breve contexto del desafío..." class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-white/10 text-xs text-white"></textarea>
+        <button type="submit" class="w-full py-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs uppercase tracking-wider">Enviar y Coordinar por WhatsApp</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- CHATBOT "HABLA CON MAURO" (GOLD EDITION) -->
+  <div id="chatbot-trigger-container" class="fixed bottom-6 right-6 z-40">
+    <button id="open-chatbot-btn" class="glass-panel px-4 py-2.5 rounded-full border border-amber-400/40 bg-[#0d121f]/95 shadow-2xl flex items-center space-x-3">
+      <div class="w-8 h-8 rounded-full bg-gradient-to-tr from-amber-500 to-amber-700 flex items-center justify-center font-heading font-black text-slate-950 text-xs">MM</div>
+      <div class="text-left">
+        <div class="text-xs font-bold text-white flex items-center space-x-1">
+          <span>Habla con Mauro</span>
+          <span class="text-[9px] px-1.5 py-0.2 rounded bg-amber-400/20 text-amber-300 font-mono-tag">IA & Voz</span>
+        </div>
+        <span class="text-[10px] text-slate-400 font-mono-tag">Texto y Voz en vivo</span>
+      </div>
+      <div class="flex items-center space-x-1 pl-1">
+        <span class="sound-wave-bar"></span>
+        <span class="sound-wave-bar"></span>
+        <span class="sound-wave-bar"></span>
+      </div>
+    </button>
+  </div>
+
+  <!-- Chat Window -->
+  <div id="chatbot-window" class="fixed bottom-6 right-6 z-50 hidden w-[92vw] sm:w-[400px] h-[550px] max-h-[85vh] glass-panel rounded-3xl border border-amber-400/30 bg-[#0a0f1d] shadow-2xl flex-col overflow-hidden modal-enter-active">
+    <div class="p-3.5 border-b border-white/10 bg-[#07090e] flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <div class="w-8 h-8 rounded-lg bg-amber-500 text-slate-950 flex items-center justify-center font-heading font-black text-xs">MM</div>
+        <div>
+          <h4 class="text-xs font-bold text-white">Mauro AI · Asesor Ejecutivo</h4>
+          <p class="text-[10px] text-slate-400 font-mono-tag">En Línea · Voz y Texto</p>
+        </div>
+      </div>
+      <div class="flex items-center space-x-1">
+        <button id="toggle-voice-btn" class="p-1.5 hover:text-white text-slate-400"><i id="voice-icon-on" data-lucide="volume-2" class="w-4 h-4 text-amber-400"></i><i id="voice-icon-off" data-lucide="volume-x" class="w-4 h-4 text-slate-500 hidden"></i></button>
+        <button id="close-chatbot-btn" class="p-1.5 hover:text-white text-slate-400"><i data-lucide="x" class="w-4 h-4"></i></button>
+      </div>
+    </div>
+    <div class="px-3 py-2 bg-black/40 border-b border-white/5 flex space-x-1.5 overflow-x-auto text-[11px] whitespace-nowrap">
+      <button class="chat-quick-chip px-2 py-0.5 rounded-full bg-white/5 hover:bg-amber-400/20 text-slate-300" data-prompt="¿Cuál es tu trayectoria directiva?">💼 Trayectoria</button>
+      <button class="chat-quick-chip px-2 py-0.5 rounded-full bg-white/5 hover:bg-amber-400/20 text-slate-300" data-prompt="¿Cómo aplicas PNL en negociaciones?">🧠 PNL</button>
+      <button class="chat-quick-chip px-2 py-0.5 rounded-full bg-white/5 hover:bg-amber-400/20 text-slate-300" data-prompt="¿Cómo agendo una sesión confidencial?">📅 Agendar</button>
+    </div>
+    <div id="chat-messages-container" class="flex-1 p-3 overflow-y-auto space-y-2.5 text-xs">
+      <div class="flex items-start space-x-2">
+        <div class="w-6 h-6 rounded bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-[10px]">MM</div>
+        <div class="bg-white/10 rounded-2xl rounded-tl-sm p-3 border border-white/10 text-slate-200 max-w-[85%]">
+          <p>Hola, soy el asistente directivo de <strong>Mauricio Manzanera</strong>. Puedes escribirme o hablarme por micrófono para consultar sobre negociación, PNL o agendar una llamada.</p>
+        </div>
+      </div>
+    </div>
+    <div id="voice-recording-indicator" class="hidden px-3 py-1.5 bg-red-500/10 text-[11px] text-red-300 flex items-center justify-between">
+      <span>Escuchando tu voz...</span>
+      <button id="cancel-voice-btn" class="text-xs text-slate-400">Detener</button>
+    </div>
+    <div class="p-2.5 bg-[#07090e] border-t border-white/10">
+      <form id="chatbot-form" class="flex items-center space-x-1.5">
+        <button type="button" id="chat-mic-btn" class="p-2 rounded-xl bg-white/5 text-slate-300 hover:text-amber-400 border border-white/10"><i data-lucide="mic" class="w-4 h-4"></i></button>
+        <input type="text" id="chat-input" placeholder="Escribe o habla por micrófono..." class="flex-1 px-3 py-2 rounded-xl bg-white/5 border border-white/10 text-xs text-white focus:outline-none focus:border-amber-400">
+        <button type="submit" class="p-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold"><i data-lucide="send" class="w-4 h-4"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="py-8 border-t border-white/10 bg-[#05070a] text-center text-xs text-slate-500">
+    <p>&copy; 2026 Mauricio Manzanera. www.mauriciomanzanera.com · Red Global de Negocios S.A.S. (Versión 1 - Gold Edition)</p>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
